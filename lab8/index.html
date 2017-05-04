@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jquery plugins</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./plugins/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/lightbox/css/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="./plugins/colorbox/colorbox.css">
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+  <script src="./plugins/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./plugins/slick/main.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./plugins/lightbox/js/lightbox.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./plugins/colorbox/jquery.colorbox.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/main.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<!-- Блок Header -->
+  <header id="header">
+    <ul id="nav">
+      <li><a href="#">slider</a></li>
+      <li><a href="#">gallery</a></li>
+      <li><a href="#">some</a></li>
+      <li><a href="#">another</a></li>
+      <li><a href="https://github.com/beor358/TPIL">github</a></li>
+    </ul>
+  </header>
+<!-- Конец блока Header -->
+
+
+<!-- Блок со слайдером -->
+  <section class="regular slider">
+    <div>
+      <img src="./images/1.jpg">
+    </div>
+    <div>
+      <img src="./images/2.jpg">
+    </div>
+    <div>
+      <img src="./images/3.jpg">
+    </div>
+    <div>
+      <img src="./images/4.jpg">
+    </div>
+    <div>
+      <img src="./images/5.jpg">
+    </div>
+    <div>
+      <img src="./images/6.jpg">
+    </div>
+  </section>
+<!-- Конец блока со слайдером -->
+
+<!-- Блок с Jqery вкладками -->
+  <section id="tabs">
+
+  <!-- Навигация по вкладкам -->
+    <ul>
+      <li><a href="#first">Cats</a></li>
+      <li><a href="#second">Animals</a></li>
+    </ul>
+  <!-- Конец навигации по вкладкам -->
+
+  <!-- Первая вкладка -->
+    <div id="first">
+      <ul class="gallery first__gallery">
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/1" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/1">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/2" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/2">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/3" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/3">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/4" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/4">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/5" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/5">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/6" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/6">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/7" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/7">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/cats/8" data-lightbox="cats">
+            <img src="http://lorempixel.com/900/600/cats/8">
+          </a>
+        </li>
+      </ul>
+    </div>
+  <!-- Конец первой вкладки -->
+
+  <!-- Начало второй вкладки -->
+    <div id="second">
+      <ul class="gallery second__gallery">
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/1" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/1">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/2" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/2">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/3" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/3">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/4" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/4">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/5" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/5">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/6" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/6">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/9" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/9">
+          </a>
+        </li>
+        <li>
+          <a href="http://lorempixel.com/900/600/animals/8" class="animals">
+            <img src="http://lorempixel.com/900/600/animals/8">
+          </a>
+        </li>
+      </ul>
+    </div>
+  <!-- Конец второй вкладки -->
+
+  </section>
+<!-- Конец блока с Jquery вкладками -->
+
+<!-- Начало блока Footer -->
+  <footer class="footer">
+    &copy; Igor Tretyak &ndash; 2017.
+  </footer> 
+<!-- Конец блока Footer -->
+
+</body>
+</html>
